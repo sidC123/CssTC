@@ -1,0 +1,181 @@
+ASSIGNMENT 5: PRICE PLAN CARD???
+------------
+
+pseudo classes?
+Brush up Display flex and other properties.
+ Property display: flex; (Parent)
+ Property flex-direction: row;
+ Property flex-direction: row-reverse;
+ Property flex-direction: column;
+ Property flex-direction: column-reverse;
+ Property align-items: center;
+ Property align-items: flex-end;
+ Property align-items: flex-start;
+ Property align-self: center;
+ Property align-self: flex-end;
+ Property align-self: flex-start;
+ Property justify-content: center;
+ Property justify-content: flex-end;
+ Property justify-content: flex-start;
+ Property justify-content: space-evenly;
+ Property justify-content: space-around;
+ Property justify-content: space-between
+
+:hover?
+
+Task: 
+- make a div and add hover effects to it.
+- adding css to the child elements while parent is hovered.
+- On hover image is displayed
+- On hover on parent div child div border is displayed and on hover on child div child div image is displayed.
+
+Task: Add hover effects to the Navigation elements in Navbar.
+
+BASIC HTML 'TAGS':
+ Property list-style-type: none;, disc;, square; lower-roman; , upper-roman; , upper-alpha;, lower-alpha;
+
+Pseudo class:
+ :first-child
+ :last-child
+ :nth-child() [:nth-child(odd), :nth-child(even), :nth-child(number)]
+
+Task: Add active state to the child elements using nth-child().
+
+------------
+ASSIGNMENT 6: Make 'Our Expert Team' cards as shown in the picture.
+------------
+
+------------
+ASSIGNMENT 7: 
+- Create a table and give CSS as shown using pseudo selector nth-child. 
+------------
+
+ Property display: table; (on parent)
+ Property display: table-cell; (on child)
+ Property vertical-align: top;
+ Property vertical-align: bottom;
+ Property vertical-align: middle;
+ Property visibility: visible;
+ Property visibility: hidden;
+ Display Vs visibility property;
+ How to give different border radius to different corner sides?
+
+------------
+ASSIGNMENT 8: Create startup landing page.
+------------
+
+ Property position: static;
+ Property position: fixed;
+ Property position: sticky;
+ Property position: relative;
+ Property position: absolute;
+ Property z-index: __;
+ Property top: __;
+ Property bottom: __;
+ Property right: __;
+ Property left: __;
+
+
+------------
+ASSIGNMENT 9: Landing page Hero section, Navbar and Cards using posiiton properties.
+------------
+
+------------
+ASSIGNMENT 10: Form with images placed in front and back. Make another table booking form.
+------------
+
+ Descendant Selector - (div p) Selects every child p under parent div
+ Child Selector - (div > p) Only selects the direct child
+ Adjacent sibling selector - (h2 + p) Selects the first p which comes after
+h2 and is also a sibling to h2
+ General sibling selector - (h3 ~ p) Selects every p which come after h3
+and is also a sibling to h3
+ Pseudo tags (::)
+ ::first-letter{}
+ ::first-line{}
+ ::selection{}
+ ::before{}
+ ::after{}
+ Property content: “”;
+
+
+------------
+ASSIGNMENT 11: Use selectors instead direct classes wherever possible.
+------------
+
+ Property text-shadow: left-right top-bottom blur-radius color;
+ Property box-shadow: left-right top-bottom blur-radius spread-radius color;
+
+------------
+ASSIGNMENT 12: Price cards add shadows, craete featued tag, shadows, and hover effects.
+------------
+
+ Property background-color: linear-gradient(color1, color2);
+ Property background-color: radial-gradient(color1, color2);
+ How to make text color linear-gradient?
+1. Property background-image: linear-gradient(color1, color2);
+2. Property background-clip: text;
+3. Property -webkit-background-clip: text;
+4. Property -ms-background-clip: text;
+5. Property color: transparent;
+
+ @media screen and (min-width:__px) and (max-width:__px){}
+
+------------
+ASSIGNMENT 13: Softland landing page.
+------------
+
+ Property transform: translate(dx, dy);
+ Property transform: translateX(dx);
+ Property transform: translateY(dy);
+ Property transform: scale(x, y); (x or y is multiplied by the original width and height)
+ Property transform: scaleX(x);
+ Property transform: scaleY(y);
+ Property transform: skew(__deg, __deg);
+ Property transform: skewX(__deg);
+ Property transform: skewY(__deg);
+ Property transform: rotate(__deg);
+ Property transform: rotateX(__deg);
+ Property transform: rotateY(__deg);
+ Property transition: property duration;
+ Property transition: property1 duration, property2 duration, property3 duration; 
+ Property transition: all duration;
+ Property transform-origin: top left;
+ Property transform-origin: top right;
+ Property transform-origin: bottom left;
+ Property transform-origin: bottom right;
+ Property transition-timing-function: linear; (same speed from start to end)
+ Property transition -timing-function: ease-in; (slow start then fast)
+ Property transition -timing-function: ease-out; (fast start then slow)
+ Property transition -timing-function: ease-in-out; (slow start then fast then slow end)
+
+------------
+ASSIGNMENT 14: Vegetables ecommerce product listing
+------------
+
+ Property animation
+ Property animation-name: animationName;
+ @keyframes animationName{
+    from{} to{}
+  }
+ Property animation-duration
+ Property animation-iteration-count: __;
+ Property animation-iteration-count: infinite;
+ Property animation-delay: __s;
+ Property animation-direction: reverse;
+ Property animation-direction: alternate;
+ Property animation-direction: alternate-reverse;
+ @keyframes animationName{
+    0%{}
+    25%{}
+    50%{}
+    75%{}
+    100%{}
+  }
+
+ Property filter: blur(__px);
+ Property filter: brightness(x); (x is in multiples);
+ Property filter: contrast(__%);
+ Property filter: grayscale(__%);
+ Property filter: drop-shadow(top-bottom-value left-right-value);
+ Property filter: contrast () grayscale();
