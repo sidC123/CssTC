@@ -11,3 +11,89 @@ body {
     background-color: #d7d7d7;
     height: 2000px;
 }
+
+.container {
+    border: 5px solid red;
+    margin: 50px;
+}
+
+.container.top {
+    background-color: yellow;
+}
+
+.container.bottom {
+    background-color: blue;
+}
+
+/* div.container {
+    background-color: yellow;
+}
+section.container {
+    background-color: blue;
+}*/
+
+.flex {
+    display: flex;
+    border: 2px solid red;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: rosybrown;
+    border: 1px solid black;
+    text-align: center;
+    min-width: 200px;
+}
+
+.box1 {
+    flex: 2;
+}
+
+.box2 {
+    flex: 2;
+}
+
+.box3 {
+    flex: 2;
+}
+
+.box4 {
+    flex: 2;
+}
+
+.gradient {
+    height: 100px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.gradient1 p {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+
+    /* background: linear-gradient(to right, red 20%, yellow 70%, blue 100%); */
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+/* .gradient1 {
+    background: linear-gradient(to right, red 20%, yellow 70%, blue 100%);
+} */
+
+/* .gradient1 {
+    background: linear-gradient(to right, red 0%, red 20%, yellow 20%, yellow 70%, blue 70%, blue 100%);
+} */
+
+/* .gradient1 {
+    width: 600px;
+height: 600px;
+background: radial-gradient(circle, red, green, blue);
+}
+*/
