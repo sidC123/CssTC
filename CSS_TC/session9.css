@@ -74,7 +74,7 @@ section.container {
     font-size: 60px;
     font-weight: 700;
 
-    /* background: linear-gradient(to right, red 20%, yellow 70%, blue 100%); */
+    background: linear-gradient(to right, red 20%, yellow 70%, blue 100%);
 
     background-clip: text;
     -webkit-background-clip: text;
