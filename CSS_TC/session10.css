@@ -1,0 +1,146 @@
+* {
+  /* padding: 0; */
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: 600;
+  font-size: 22px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: #d7d7d7;
+  height: 2000px;
+}
+
+.ox:hover {
+  /* Property transform: translate(dx, dy); */
+
+  /* Property transform: translateX(dx); */
+
+  /* Property transform: translateY(dy); */
+
+  /* Property transform: scaleX(x); */
+  /* transform: scaleX(2); */
+  /* transform: scale(2); */
+
+  /* Property transform: scaleX(y); */
+  /* transform: scaleY(2); */
+
+  /* Property transform: scale(x,y); */
+  /* transform: scale(1.2, 2); */
+
+  /* Property transform: skew(__deg, __deg); */
+  /* transform: skew(5deg, 20deg); */
+
+  /* Property transform: rotate(__deg); */
+  /* transform: rotate(-30deg);
+  transform: rotateX(30deg);
+  transform: rotateY(30deg); */
+
+  /* width: 300px; */
+}
+
+label {
+  color: #000;
+  border-radius: 5px;
+  border: 2px solid #000;
+  transition: all 0.3s;
+}
+
+input {
+  display: none;
+}
+
+input:checked + label {
+  color: white;
+  border: 2px solid royalblue;
+  background-color: royalblue;
+}
+
+.btn-grp {
+  display: flex;
+  width: 350px;
+  border: 5px solid red;
+  padding: 10px;
+  gap: 10px;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.btn-grp:hover div.btn:nth-child(1),
+.btn-grp:hover div.btn:nth-child(2),
+.btn-grp:hover div.btn:nth-child(3) {
+  transform: translate(0, -80px);
+}
+
+.btn {
+  width: 100%;
+  height: 100px;
+}
+
+div.btn:nth-child(1) {
+  background-color: orange;
+  transition: transform 0.4s ease-in-out;
+}
+
+div.btn:nth-child(2) {
+  background-color: green;
+  transition: transform 0.5s ease-in-out;
+}
+
+div.btn:nth-child(3) {
+  background-color: royalblue;
+  transition: transform 0.6s ease-in-out;
+}
+
+.ox {
+  width: 200px;
+  height: 200px;
+  margin: 200px auto;
+  background-color: rgb(0, 0, 255);
+  position: relative;
+
+  /* transition: width 1s ease, transform 0.3s ease;
+
+  transform-origin: top; */
+
+  animation: mymove1 2s infinite;
+  animation: mymove2 2s infinite;
+}
+
+@keyframes mymove1 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 200px;
+  }
+}
+
+@keyframes mymove2 {
+  0% {
+    top: 0px;
+    background: yellow;
+  }
+  50% {
+    top: 100px;
+    background: red;
+  }
+  100% {
+    top: 0px;
+    background: yellow;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ox {
+    background-color: green;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .ox {
+    background-color: red;
+  }
+}
